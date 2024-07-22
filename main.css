@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: cornflowerblue;
+}
+
+.clock {
+    display: inline-block;
+    background-color: blanchedalmond;
+    border: 2px solid yellowgreen;
+    padding: 10px 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.dayOfWeek {
+    font-size: 24px;
+    color: #fff;    
+}
+.week{
+    background-color: #fff;
+}
